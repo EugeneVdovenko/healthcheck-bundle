@@ -1,0 +1,25 @@
+{
+    "name": "openstudio/healthcheck",
+    "description": "Healthcheck Bundle for Symfony 7.1 Framework",
+    "type": "symfony-bundle",
+    "license": "proprietary",
+    "require": {
+        "php": ">=8.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "OpenStudio\\HealthcheckBundle\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "OpenStudio\\HealthcheckBundle\\Tests\\": "tests/"
+        }
+    },
+    "extra": {
+        "symfony": {
+            "allow-contrib": "true",
+            "require": "7.1.*"
+        }
+    }
+}

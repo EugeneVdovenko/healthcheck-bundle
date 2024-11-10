@@ -1,0 +1,6 @@
+parameters:
+
+services:
+  OpenStudio\HealthcheckBundle\Controller\PingController:
+    autowire: true
+    autoconfigure: true

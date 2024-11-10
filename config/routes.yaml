@@ -1,0 +1,5 @@
+controllers:
+    resource:
+        path: ../src/Controller/
+        namespace: OpenStudio\HealthcheckBundle\Controller
+    type: attribute
