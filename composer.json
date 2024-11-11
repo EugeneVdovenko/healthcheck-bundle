@@ -4,7 +4,8 @@
     "type": "symfony-bundle",
     "license": "proprietary",
     "require": {
-        "php": ">=8.2"
+        "php": ">=8.2",
+        "symfony/framework-bundle": "7.1.*"
     },
     "autoload": {
         "psr-4": {
@@ -14,12 +15,6 @@
     "autoload-dev": {
         "psr-4": {
             "OpenStudio\\HealthcheckBundle\\Tests\\": "tests/"
-        }
-    },
-    "extra": {
-        "symfony": {
-            "allow-contrib": "true",
-            "require": "7.1.*"
         }
     }
 }
