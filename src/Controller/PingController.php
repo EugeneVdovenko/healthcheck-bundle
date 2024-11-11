@@ -14,7 +14,7 @@ use Symfony\Component\Routing\Attribute\Route;
 #[Route(path: '/healthcheck/ping', name: 'healthcheck_ping', methods: [Request::METHOD_GET])]
 class PingController
 {
-    public function __invoke(): Response
+    public function __invoke(Request $request): Response
     {
         return new JsonResponse("pong");
     }
